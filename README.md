@@ -5,11 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/Ranger.svg?style=flat)](http://cocoapods.org/pods/Ranger)
 [![Platform](https://img.shields.io/cocoapods/p/Ranger.svg?style=flat)](http://cocoapods.org/pods/Ranger)
 
-## Example
+## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+**Ranger** provides two new operators for reverse ranging:
+
+1. `..>` which works as the inverse of `..<`; `max..>min` is equivalent to `min+1..<max`
+2. `>>>` which works the same as `...` but allows for the lhs to be smaller than rhs -- `max>>>min` is equivalent to `(min...max).reversed()`
 
 ## Requirements
+Swift 3
 
 ## Installation
 
