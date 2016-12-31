@@ -1,5 +1,5 @@
 /// Allows for reverse ranges, non-inclusive on the lower bound.
-/// 5..<1 == (2...5).reversed()
+/// 5..>1 == (2...5).reversed()
 ///
 ///
 /// - Parameters:
