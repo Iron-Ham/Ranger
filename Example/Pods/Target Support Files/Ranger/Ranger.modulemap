@@ -1,0 +1,6 @@
+framework module Ranger {
+  umbrella header "Ranger-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,7 +1,6 @@
 use_frameworks!
 target 'Ranger_Tests' do
   pod 'Ranger', :path => '../'
-  
-  pod 'Quick', '~> 1.0.0'
-  pod 'Nimble', '~> 5.1.1'
+  pod 'Quick'
+  pod 'Nimble'
 end

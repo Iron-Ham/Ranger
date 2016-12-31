@@ -1,0 +1,22 @@
+PODS:
+  - Nimble (5.1.1)
+  - Quick (1.0.0)
+  - Ranger (0.1.0)
+
+DEPENDENCIES:
+  - Nimble
+  - Quick
+  - Ranger (from `../`)
+
+EXTERNAL SOURCES:
+  Ranger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  Ranger: 1fc73bfc46767625c9eaaa8d57597c9df495a6c2
+
+PODFILE CHECKSUM: 9fcef4fe12c576cd568dfbbdbd85f901ff986dda
+
+COCOAPODS: 1.1.1
