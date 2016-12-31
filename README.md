@@ -9,7 +9,7 @@
 
 **Ranger** provides two new operators for reverse ranging:
 
-1. `..>` which works as the inverse of `..<`; `max..>min` is equivalent to `min+1..<max`
+1. `..>` which works as the inverse of `..<`; `max..>min` is equivalent to `min+1...max`
 2. `>>>` which works the same as `...` but allows for the lhs to be smaller than rhs -- `max>>>min` is equivalent to `(min...max).reversed()`
 
 So you may be asking, "Why would I want to use this instead of calling `reversed()`?"
