@@ -21,7 +21,6 @@
 		8F7E8E4F7060C0523574BE39 /* Pods_Ranger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ranger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		948243CBFB3E6ABE0A551C68 /* Ranger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Ranger.podspec; path = ../Ranger.podspec; sourceTree = "<group>"; };
 		DAFFA5D578F3C91BCF6DBCB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		DCBD30741E184519000FFFE4 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +38,6 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				DCBD30741E184519000FFFE4 /* MyPlayground.playground */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
